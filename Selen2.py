@@ -24,7 +24,7 @@ sys.path.append(os.path.dirname(os.path.dirname(os.path.realpath(__file__))))
 
 from twocaptcha import TwoCaptcha
 
-api_key = os.getenv('APIKEY_2CAPTCHA', '0c0d9bfd5d0ed2f8dbf125219ca92b4a')
+api_key = os.getenv('APIKEY_2CAPTCHA', 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx')
 
 solver = TwoCaptcha(api_key)
 def solveC():

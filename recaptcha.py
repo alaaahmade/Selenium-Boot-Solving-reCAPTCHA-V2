@@ -5,7 +5,7 @@ import time
 # Initialize the Anti-Captcha service
 solver = RecaptchaV2Proxyless()
 solver.set_verbose(1)
-solver.set_key("0c0d9bfd5d0ed2f8dbf125219ca92b4a")  # Replace with your API key
+solver.set_key("xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx")  # Replace with your API key
 
 # Start the Selenium WebDrive
 

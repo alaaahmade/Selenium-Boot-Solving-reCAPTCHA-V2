@@ -130,7 +130,7 @@ def main(number):
         term_2.click()
 
         # Solve CAPTCHA using 2Captcha API
-        api_key = '0c0d9bfd5d0ed2f8dbf125219ca92b4a'
+        api_key = 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'
         iframe = WebDriverWait(driver, 10).until(
             EC.presence_of_element_located((By.XPATH, "//iframe[contains(@src, 'https://www.google.com/recaptcha/api2/anchor')]"))
         )
